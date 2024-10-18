@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINEVAULT</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #e8e8e8;
+            background-color: #26381b;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #4e694e;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: hsl(135, 100%, 50%) 3px solid;
+            position: fixed; 
+            top: 0;          
+            width: 100%;     
+            z-index: 1000;   
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: hwb(51 0% 0%);
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        /* Push down the content below the header */
+        #showcase {
+            margin-top: 100px;
+            min-height: 300px;
+            background: url('/api/placeholder/1200/300') no-repeat center;
+            background-size: cover;
+            text-align: center;
+            color: #ffffff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .command-block {
+            background-color: #686b37;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .command-name {
+            color: hsl(83, 100%, 50%);
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .command-description {
+            margin-top: 10px;
+        }
+        .command-example {
+            background-color: #8ba300;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 10px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .command-usage {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        .command-usage li {
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #eeff00;
+            border-bottom: 2px solid #3d4400;
+            padding-bottom: 10px;
+        }
+        /* Scroll to top button */
+        #scrollTopBtn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background-color: #4e694e;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            display: none;
+            z-index: 1000;
+        }
+        #scrollTopBtn:hover {
+            background-color: #6d8b6d;
+        }
+        /* Video section styles */
+        #vhsClips {
+            position: relative;
+            overflow: hidden;
+            height: 300px; /* Adjust height as needed */
+            margin-top: 20px;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Vine Vault Forum</span> (Main Page)</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://gabewarr.github.io/Vine-Vault-Company/">Home Page (Vine Vault Company WebPage)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>VINE VAULT</h1>
+            <p>THIS GAME WAS MADE WITH UNITY 6 (A GORILLA TAG FAN GAME)</p>
+        </div>
+    </section>
+
+    <section id="content">
+        <div class="container">
+            <h2>Owner / Developer (Gabe)</h2>
+            
+            <div class="command-block">
+                <div class="command-name">Copyright, Rules, Anti Cheat, And More</div>
+                <div class="command-description">
+                    This Game Has Assets Made By Gabe (Gabesoft) If You Steal Or Rip Assets From Game, You Will Be Banned In Game And Discord.
+                </div>
+                <div class="command-example">
+                    *As if, your have to obey the Developer as a king*
+                </div>
+                <div class="command-usage">
+                    <h4>Rules:</h4>
+                    <ol>
+                        <li>No Racism.</li>
+                        <li>No Inappropriate Things.</li>
+                        <li>No Glitching Except For Getting Out Of The Map.</li>
+                        <li>Listen To The Developer Nicely! (Don't Be Toxic)</li>
+                        <li>Be Civil (Act Nice Toward People, Even People We Hate)</li>
+                        <li>Most Importantly Of All, Don't Pirate, Or Steal This Game Or Its Assets, Or You Will Face The Consequences!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="content">
+        <div class="container">
+            <h2>Vault Hang Out: The Training Page</h2>
+            
+            <div class="command-block">
+                <div class="command-name">How To Move</div>
+                <div class="command-description">
+                    Push your arms as if you're crawling, not pushing downwards.
+                </div>
+                <div class="command-example">
+                    *Use your left hand forward and pull backward, then do the same with your right arm.*
+                </div>
+                <div class="command-usage">
+                    <h4>In This Case:</h4>
+                    <ol>
+                        <li>You Can Walk Properly.</li>
+                        <li>You Learned How To Jump In Moments You Need To.</li>
+                        <li>And Fully Understand The Mechanics.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="command-block">
+                <div class="command-name">How To Wall Climb</div>
+                <div class="command-description">
+                    Put a hand or two on a wall and push against it. The walls let you stay on them for a moment before bouncing.
+                </div>
+                <div class="command-example">
+                    *It's like bouncing on a wall like a rubber ball!*
+                </div>
+                <div class="command-usage">
+                    <h4>In This Case:</h4>
+                    <ol>
+                        <li>You Can Wall Climb Properly.</li>
+                        <li>You Learned Advanced Mechanics.</li>
+                        <li>You Fully Understand How Walls Work.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="content">
+        <div class="container">
+            <h2>VHS Clips: How It All Came In Place</h2>
+
+            <br/>
+
+            <video width="400" controls>
+                <source src="C:\Users\gabew\OneDrive\Desktop\Vine Vault Page\cow.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    
+</body>
+</html>
